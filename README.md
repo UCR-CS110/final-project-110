@@ -32,19 +32,19 @@ DATABASES = {
     }
 }
 ```
-# Create the DataBase
+Create the DataBase
 In the terminal we should migrate the database files for Django:
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
-# Create the SuperUser
+Create the SuperUser
 
 In the terminal we should create a SuperUser as manager to operate Blog in the backstage of Django
 ```bash
 python manage.py createsuperuser
 ```
-# Start Running
+Start Running
 Execute: 
  ```bash
 python manage.py runserver

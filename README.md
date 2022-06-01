@@ -63,7 +63,11 @@ Overall System Diagram
 
 ## Dependencies
 Using the Python's Django framework as backend server and frontend is static HTML+JS+CSS. 
-Easily install the packages needed: pip install requirements.txt 
+Easily install the packages needed: 
+    ```bash
+ pip install requirements.txt 
+```
+    
 If you don't have pip, 
 
     OS X / Linux, in the terminal run:

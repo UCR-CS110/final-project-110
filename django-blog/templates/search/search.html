@@ -19,21 +19,21 @@
                         <span class="post-author"><a href="#">{{ result.object.author }}</a></span>
                         <span class="comments-link">
                         <a href="{{ result.object.get_absolute_url }}#comment-area">
-                            {{ result.object.comment_set.count }} 评论</a></span>
+                            {{ result.object.comment_set.count }} Comment</a></span>
                         <span class="views-count"><a
-                                href="{{ result.object.get_absolute_url }}">{{ result.object.views }} 阅读</a></span>
+                                href="{{ result.object.get_absolute_url }}">{{ result.object.views }} Reading</a></span>
                     </div>
                 </header>
                 <div class="entry-content clearfix">
                     <p>{% highlight result.object.body with query %}</p>
                     <div class="read-more cl-effect-14">
-                        <a href="{{ result.object.get_absolute_url }}" class="more-link">继续阅读 <span
+                        <a href="{{ result.object.get_absolute_url }}" class="more-link">Reading More <span
                                 class="meta-nav">→</span></a>
                     </div>
                 </div>
             </article>
         {% empty %}
-            <div class="no-post">没有搜索到你想要的结果！</div>
+            <div class="no-post">No Results！</div>
         {% endfor %}
         {% if page.has_previous or page.has_next %}
             <div>
@@ -46,6 +46,6 @@
             </div>
         {% endif %}
     {% else %}
-        请输入搜索关键词，例如 django
+        Please Input the keyword, For Example: django
     {% endif %}
 {% endblock main %}

@@ -47,9 +47,9 @@ python manage.py createsuperuser
 Start Running
 Execute: 
  ```bash
-python manage.py runserver
+python manage.py runserver localhost:8000
 ```
-In the Browser visit: http://127.0.0.1:8000/
+In the Browser visit: [http://127.0.0.1:8000/](http://localhost:3000/)
 
 
 ## Diagrams

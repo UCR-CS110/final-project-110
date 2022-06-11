@@ -6,6 +6,7 @@
 - [How To Run](#how-to-run)
 - [Diagrams](#diagrams)
 - [Dependencies](#dependencies)
+- [Description](#Description)
 
 ## Overview
 <Include project description?
@@ -79,4 +80,13 @@ If you don't have pip,
 
     http://peak.telecommunity.com/dist/ez_setup.py and https://raw.github.com/pypa/pip/master/contrib/get-pip.py 
 
-
+## Description
+    As a programmer, it is natural to deal with code every day, and inevitably encounter various problems and various bugs, which requires timely recording of problems and methods to solve them, both for themselves and others. However, many programmers do not like to write things. I have been studying computer for nearly a year, so far, I still often think of my cousin who said that if you don't solve 1000 problems, you are not a beginner in this industry... Look up to some god-level programmers such as Wu Hanqing, Lou Tiancheng, Ruan Yifeng , Liao Xuefeng, his personal blog has been built, maintained and updated for many years. So we follow the example of various great gods and build a personal blog system as the first simple and small project of our group web development.
+    After we collect various articles and analyze their value, we import them into our group blog system, and after setting tags in the background, the system automatically categorizes them and provides keyword search function. After categorizing, you can refer to the articles according to your personal preferences. Due to time and technical reasons, this blog is version 1.0, and our team will add scrapy crawler for article crawling and server deployment in the future.
+    The main functions:
+  1. Search engine
+  2. Classification and filing
+  3. Review the application
+  4. Statistics of reading volume and number of articles
+  5. Page sidebar and tag cloud
+  6. Background management
